@@ -1,1 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radwan's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Particle Canvas -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Radwan</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero-content">
+            <h1>Hi There,<br> I'm <span class="highlight">Radwan</span></h1>
+            <p>I am a Cloud Engineer with a passion for technology and problem-solving. My expertise lies in cloud architecture, automation, and infrastructure management. I have experience in various AWS services and am continuously expanding my knowledge to keep up with industry advancements.</p>
+            <a href="#about" class="btn">About Me</a>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/radwan-hassan-091693172/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/radwan" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div>
+            <img src="./img/comp.png" alt="Profile Image" class="profile-image">
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-container">
+            <div class="image-container">
+                <img src="./img/avatar.png" alt="Profile Image" class="profile-image">
+            </div>
+            <div class="text-container">
+                <h2>About Me</h2>
+                <p1>Hello! I'm Radwan, a passionate Cloud Engineer with a diverse background in technology and a keen interest in leveraging cloud solutions to drive efficiency and innovation. With a strong foundation in AWS and hands-on experience with various cloud technologies, I'm dedicated to crafting scalable, resilient, and secure architectures.
+    
+                My journey began with a Bachelor’s degree in Quantity Surveying, but my interest in technology and the cloud drove me to further my skills through intensive training and certifications. I am an AWS re/Start graduate and have developed a strong technical skill set in AWS services, Linux, and DevOps practices.
+    
+                In previous roles, I've excelled in environments that required technical problem-solving, teamwork, and a strategic approach to handling complex tasks. Whether it's automating deployments, optimizing infrastructure, or ensuring smooth operations, I’m committed to delivering impactful solutions.
+    
+                Outside of tech, I’m an avid sports enthusiast and enjoy tennis, boxing, and football, which help me stay disciplined, strategic, and focused on my goals. I’m always eager to learn, collaborate, and contribute to projects that push the boundaries of what’s possible in cloud technology.</p1>
+            
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fab fa-aws"></i>
+                <h3>AWS</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-linux"></i>
+                <h3>Linux</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-cogs"></i>
+                <h3>DevOps</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-docker"></i>
+                <h3>Docker</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-github"></i>
+                <h3>GitHub Actions</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-terraform"></i>
+                <h3>Terraform</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-kubernetes"></i>
+                <h3>Kubernetes</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-git"></i>
+                <h3>Git</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <h3>Project 1: Hosting Website on S3</h3>
+                <p>A website hosted on an S3 bucket demonstrating static site hosting.</p>
+                <a href="https://github.com/Radwan365/AWS-Projects.git" target="_blank" class="btn">View on GitHub</a>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <h3>Project 2: Automation with AWS CloudFormation</h3>
+                <p>Automation of cloud resources using CloudFormation templates.</p>
+                <a href="https://github.com/Radwan365/AWS-Projects.git" target="_blank" class="btn">View on GitHub</a>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <h3>Project 3: CloudTrail and Athena</h3>
+                <p>Enhanced cloud security by analyzing logs with CloudTrail and Athena.</p>
+                <a href="https://github.com/Radwan365/AWS-Projects.git" target="_blank" class="btn">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p class="contact-info">Email: radwan@example.com</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
 
