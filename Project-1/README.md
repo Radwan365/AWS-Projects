@@ -1,10 +1,15 @@
 This repository contains the source code and deployment pipeline for my portfolio website, hosted as a static website on AWS S3. The project demonstrates my skills in web development, JavaScript, cloud infrastructure setup, and implementing CI/CD pipelines.
 
 Features
+
 Static Website Hosting: Fully responsive single-page website hosted on an AWS S3 bucket.
+
 Interactive Elements: JavaScript used for dynamic behavior such as form validation, interactive menus, and smooth scrolling.
+
 CI/CD Pipeline: Continuous integration and deployment pipeline implemented to automate updates and deployment.
+
 Cloud Infrastructure: Leveraged AWS services such as S3, CloudFront, and Route 53 for hosting and DNS management.
+
 Development Workflow: Developed and tested locally using Visual Studio Code (VS Code).
 
 Tech Stack:
